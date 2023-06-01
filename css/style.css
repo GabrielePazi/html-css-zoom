@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-btn {
+    color: white;
+    padding: 4px;
+    background-color: rgb(89, 87, 87);
+    border-radius: 5px;
+    margin: 3px;
+}
