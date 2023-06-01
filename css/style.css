@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 .container {
     width: 100%;
     background-color: black;
@@ -17,4 +24,29 @@
     background-color: rgb(89, 87, 87);
     border-radius: 5px;
     margin: 3px;
+}
+
+main {
+    background: rgb(00, 0, 0);
+    flex-grow: 2;
+    flex-wrap: wrap;
+    padding: 50px;
+    display: flex;
+    overflow: auto;
+}
+
+.member-card {
+    margin: 5px 2px;
+    display: flex;
+}
+
+img {
+    width: 200px;
+    height: 120px;
+}
+
+footer {
+    background-color: orange;
+    height: 70px;
+    width: 100%;
 }
