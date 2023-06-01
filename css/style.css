@@ -70,4 +70,19 @@ footer {
     background-color: orange;
     height: 80px;
     width: 100%;
+    display: flex;
+}
+
+.input-section {
+    display: flex;
+    align-items: center;
+}
+
+.audio, .video {
+    display: flex;
+    margin-left: 10px;
+}
+
+.microphone, .camera {
+    text-align: center;
 }
