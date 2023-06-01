@@ -11,6 +11,8 @@ body {
     justify-content: flex-start;
 }
 
+/*  HEADER  */
+
 .container {
     width: 100%;
     background-color: black;
@@ -22,8 +24,8 @@ body {
 
 header li {
     display: inline;
-    padding: 4px 3px;
-    background-color: darkgrey;
+    padding: 5px;
+    background-color: rgb(74, 74, 74);
     border-radius: 5px;
     margin-right: 5px;
 }
@@ -32,6 +34,8 @@ header li a{
     color: white;
     text-decoration: none;
 }
+
+/*  MAIN  */
 
 main {
     height: 100vh;
@@ -46,7 +50,7 @@ main {
 }
 
 .member-card {
-    margin: 5px 2px;
+    margin: 4px 2px;
     display: flex;
     position: relative;
 }
@@ -66,11 +70,14 @@ img {
     left: 0;
 }
 
+/*  FOOTER  */
+
 footer {
-    background-color: orange;
+    background-color: rgb(34, 34, 34);
     height: 80px;
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .input-section {
@@ -80,9 +87,44 @@ footer {
 
 .audio, .video {
     display: flex;
-    margin-left: 10px;
+    padding-left: 10px;
 }
 
-.microphone, .camera {
+.microphone, .camera, .action {
     text-align: center;
+    color: white;
+}
+
+.input-options, .action-option {
+    color: white;
+}
+
+.actions-section {
+    display: flex;
+    align-items: center;
+}
+
+.action {
+    padding:8px;
+}
+
+.action:hover, .video:hover, .audio:hover {
+    background-color: rgb(74, 74, 74);
+}
+
+.green {
+    color: green;
+}
+
+.action :first-child {
+    font-size: 1.3rem;
+}
+
+.endcall-section {
+    background-color: rgb(74, 74, 74);
+    color: red;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
